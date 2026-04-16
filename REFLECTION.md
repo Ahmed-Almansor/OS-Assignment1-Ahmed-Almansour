@@ -9,50 +9,60 @@ Answer the following questions about your learning experience. Each answer shoul
 
 **Your Answer:**
 
-[Write your answer here. Discuss specific concepts like thread creation, thread states, how threads execute concurrently, what surprised you, etc.]
+I discovered that multithreading enables the simultaneous execution of several tasks within a single program. 
+I started using start() after learning how to construct threads using Runnable. 
+The many thread states, such as New, Runnable, Running, Waiting, and Terminated, were also taught to me.
 
+I gained a better understanding of CPU scheduling utilizing threads thanks to this project. 
+Additionally, I discovered how Thread.sleep() mimics execution time. 
+In general, I now see how threads increase productivity and effectiveness.
 ---
 
 ## Question 2: What was the most challenging part of this assignment?
 
 **Your Answer:**
 
-[Describe the specific challenge. Was it understanding the code? Implementing a feature? Using Git? Explain what made it difficult and how it relates to the course concepts.]
+The hardest part was figuring out how Round-Robin scheduling operates. 
+The way that unfinished processes return to the queue was confusing.
 
+It was also challenging to add functionality without altering the original code. 
+Accurately tracking waiting time was also a little challenging.
 ---
 
 ## Question 3: How did you overcome the challenges you faced?
 
 **Your Answer:**
 
-[Describe your problem-solving approach. Did you read documentation? Ask for help? Debug systematically? What resources did you use? What strategies worked?]
+I overcame the difficulties by gradually testing the code. 
+I examined the results while concentrating on one aspect at a time.
 
+To comprehend the flow, I also utilized print statements. 
+I was able to confirm the behavior by running the software again.
 ---
 
 ## Question 4: How can you apply multithreading concepts in real-world applications?
 
 **Your Answer:**
 
-[Give specific examples from real applications you use (web browsers, games, mobile apps, etc.). Explain why threads are useful in those scenarios. Connect to what you learned in this assignment.]
+Numerous programs, including games and browsers, use multithreading. 
+For instance, a browser responds to user interaction while loading pages.
 
+Threads manage both graphics and controls simultaneously in games. 
+Both performance and user experience are enhanced by this.
 ---
 
 ## Additional Reflections (Optional)
 
 ### What would you like to learn more about?
 
-[Any topics related to threading, concurrency, or operating systems that you're curious about?]
-
+I want to know more about deadlocks and thread synchronization.
 ---
 
 ### How confident do you feel about multithreading concepts now?
 
-[Rate yourself and explain: Beginner / Intermediate / Confident]
-
-[Explain your rating - what do you understand well? What needs more practice?]
-
+Intermediate: I need more practice, but I understand the fundamentals.
 ---
 
 ### Feedback on the assignment
 
-[Any comments about the assignment? Was it helpful? Too easy/hard? Suggestions for improvement?]
+The exercise was helpful and gave me a practical understanding of scheduling.
