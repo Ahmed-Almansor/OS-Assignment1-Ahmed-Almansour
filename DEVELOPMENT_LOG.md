@@ -32,90 +32,96 @@ Document your development process as you work on the assignment. Add entries sho
 
 ## Your Development Log:
 
-### Entry 1 - [Date and Time]
-**What I did**: 
+### Entry 1 - [March 29, 2026, 3:00 PM]
+**What I did**: Forked the repository and set up my student ID
 
 **Details**: 
+- Created GitHub account using university email
+- Forked the starter repository
+- Renamed the repository
+- Updated student ID in SchedulerSimulation.java
+- Ran the program to verify it works
 
-**Challenges**: 
+**Challenges**: Git was not configured properly
 
-**Solution**: 
+**Solution**: Used git config to set user.name and user.email
 
-**Time spent**: 
+**Time spent**: 1 hour
 
 ---
 
-### Entry 2 - [Date and Time]
-**What I did**: 
+### Entry 2 - [March 29, 2026, 4:00 PM]
+**What I did**: Studied and understood the code
 
 **Details**: 
+- Read the Process class and SchedulerSimulation
+- Understood how Round-Robin scheduling works
+- Observed how processes move in the ready queue
+- Ran the program multiple times
 
-**Challenges**: 
 
-**Solution**: 
+**Challenges**: Understanding how threads execute step by step
 
-**Time spent**: 
+**Solution**: Followed execution using output and print logs
+
+**Time spent**: 1.5 hours
 
 ---
 
-### Entry 3 - [Date and Time]
-**What I did**: 
+### Entry 3 - [April 16, 2026, 1:00 PM]
+**What I did**: Implemented Feature 1 (Priority)
 
 **Details**: 
+- Added priority field to Process class
+- Generated random priority values (1–5)
+- Displayed priority when process enters ready queue
 
-**Challenges**: 
+**Challenges**: Finding the correct place to add the new field
 
-**Solution**: 
+**Solution**: Added it after existing variables and tested output
 
-**Time spent**: 
+**Time spent**: 1.5 hour
 
 ---
 
-### Entry 4 - [Date and Time]
-**What I did**: 
+### Entry 4 - [April 16, 2026, 2:30 PM]
+**What I did**: Implemented Feature 2 (Context Switch Counter)
 
 **Details**: 
+- Added static counter variable
+- Incremented counter before starting each thread
+- Displayed total context switches at the end
 
-**Challenges**: 
+**Challenges**: Knowing when to increment the counter
 
-**Solution**: 
+**Solution**: Placed it before currentThread.start()
 
-**Time spent**: 
+**Time spent**: 1.5 hour
 
 ---
 
-### Entry 5 - [Date and Time]
-**What I did**: 
+### Entry 5 - [April 16, 2026, 4:00 PM]
+**What I did**: Implemented Feature 3 (Waiting Time)
 
 **Details**: 
+- Added creationTime and waitingTime variables
+- Calculated waiting time using system time
+- Printed summary table at the end of execution
 
-**Challenges**: 
+**Challenges**: Correct calculation of waiting time
 
-**Solution**: 
+**Solution**: Used System.currentTimeMillis() and verified results
 
-**Time spent**: 
-
----
-
-### Entry 6 - [Optional - Date and Time]
-**What I did**: 
-
-**Details**: 
-
-**Challenges**: 
-
-**Solution**: 
-
-**Time spent**: 
+**Time spent**: 2 hours
 
 ---
 
 ## Summary
 
-**Total time spent on assignment**: [X hours]
+**Total time spent on assignment**: [7.5 hours]
 
-**Most challenging part**: 
+**Most challenging part**: Understanding Round-Robin scheduling and thread execution
 
-**Most interesting learning**: 
+**Most interesting learning**: How threads simulate CPU scheduling
 
-**What I would do differently next time**: 
+**What I would do differently next time**: Start earlier and test each feature more frequently
